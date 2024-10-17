@@ -1,0 +1,185 @@
+*{
+    /* border: 1px solid red; */
+}
+ /* navbar */
+.nav-link{
+    color: white;
+ }
+/* carousal */
+
+#hero {
+    padding: 0;
+    margin: 0;
+}
+
+#hero .row,
+#hero .col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh; 
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.584); 
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* end of caption */
+
+
+#about{
+    padding-top: 60px;
+    padding-bottom: 60px;  
+}
+.form{
+    background-color: rgba(233, 231, 231, 0.587);
+}
+/* construction */
+
+#consturctions{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* services */
+.card-body i{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .card-link{
+    padding-bottom: 30px;
+} */
+/* enim */
+#enim{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+#vol-title{
+    font-weight: 700;
+    color: #52565e;
+    font-size: 32px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#volu{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* project */
+#projects{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#project-img{
+    padding-top: 20px;
+}
+
+/* testimonial */
+.test-info{
+    margin-left: 50px;
+}
+.test-info h4{
+    font-size: 10px;
+    color: #52565e;
+}
+
+/* .testimonial-img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+} */
+
+/* .testimonial-item {
+    padding-top: 50px; 
+    text-align: center;
+} */
+
+.test-info h3, .test-info h4 {
+    margin-top: 20px; 
+}
+/* .testimonial-wrap{
+    width: 90%;
+    height: fit-content;
+} */
+
+/* footer */
+#footer{
+    position: relative;
+    background-image: url(../images/illustration/footer-bg.jpg);
+    background-size: 1005 100%;
+    background-size: cover;
+    color: white;
+}
+#footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  #footer .container, #footer .row {
+    position: relative;
+    z-index: 2;
+  }
+  .sitename{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #Copyright{
+    border-top: 1px solid rgb(183, 183, 183);
+  }
+  a{
+    text-decoration: none;
+  }
+  .list-unstyled{
+    line-height: 40px;
+  }
+
+  /* tablet view */
+  @media only screen and(min-widht:768px){
+    
+.carousel-caption h2 {
+    color: white;
+    font-size: 2.5rem; /
+}
+
+.carousel-caption p {
+    color: white;
+    font-size: 1.2rem; 
+}
+
+.carousel-caption .btn {
+    margin-top: 20px;
+}
+  }
